@@ -15,14 +15,10 @@ export class BackendService {
   }
 
   getPosts(): Observable<Post[]> {
-    return this.http.get<Post[]>(`${this.url}/users/1/posts`, {
-      headers: {'Content-type': 'application/json; charset=UTF-8'}
-    });
+    return this.http.get<Post[]>(`${this.url}/users/1/posts`);
   }
 
   getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(`${this.url}/users`, {
-      headers: {'Content-type': 'application/json; charset=UTF-8'}
-    });
+    return this.http.get<User[]>(`${this.url}/users`);
   }
 }
