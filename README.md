@@ -1,5 +1,8 @@
 # GdgLushiInterceptors
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bfb3647-34f5-4d28-a471-9607c6bd3f0e/deploy-status)](https://app.netlify.com/sites/gdg-lushi-interceptors/deploys)
+[![Build Status](https://travis-ci.com/bernard-ng/gdg-lubumbashi-interceptors.svg?branch=master)](https://travis-ci.com/bernard-ng/gdg-lubumbashi-interceptors)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
 
 ## Development server
